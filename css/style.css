@@ -36,16 +36,26 @@ div:nth-child(5){
 }
 div:nth-child(2):hover{
     transform: rotate(360deg);
-    background-color: rgba(255, 235, 205, 0.568);
+    background-color: rgba(172, 255, 47, 0.699);
     border: 5px solid black;
 }
 div:nth-child(1):hover{
     transform: scale(2);
-    background-color: rgba(255, 235, 205, 0.568);
+    background-color: rgba(255, 0, 0, 0.671);
     border: 5px solid black;
 }
 div:nth-child(5):hover{
     transform: scale(2);
-    background-color: rgba(255, 235, 205, 0.568);
+    background-color:  rgba(255, 0, 0, 0.671);
+    border: 5px solid black;
+}
+div:nth-child(3):hover{
+    transform:skewY(20deg) skewX(20deg);
+    background-color: rgba(255, 255, 0, 0.562);
+    border: 5px solid black;
+}
+div:nth-child(4):hover{
+    transform:skewY(45deg) skewX(45deg);
+    background-color: rgba(255, 255, 0, 0.562);
     border: 5px solid black;
 }
